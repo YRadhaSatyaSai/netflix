@@ -1,0 +1,68 @@
+*{
+    background-color: #111;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.name{
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    filter: drop-shadow(4px 4px 4px yellow);
+    color: yellow;
+}
+.banner{
+    background-image: url("https://occ-0-4857-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABcg9TuSaELytTMpfLNBbxPokSI47FYpoWXi2vbAvluwsIXZAQ_M2mBc6BoAfjahHiZGrJzGmCwBxfwNG_JYhQZ7Q5O_5UjdousyT7iLkqOFlzgNy1L2hZNDEeYKXfYw-GOw9.jpg?r=b69");
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin: 0% 0.5%;
+}
+.posters::-webkit-scrollbar{
+    display: none;
+    
+}
+.poster{
+    margin: 0% 0.5%;
+    border-radius: 5%;
+    height: 200px;
+    width: 350px;
+    
+}
+h3{
+    text-align: center;
+}
+footer{
+    padding: 50px 4px 10px ;
+    color: #666;
+}
+footer h1{
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 30px 0;
+    color: #666;
+}
+footer .row{
+    display: flex;
+    align-self: start;
+    padding: 10px 0px;
+}
+footer .col{
+    margin: 10px 15px;
+
+}
+footer .col a{
+    text-decoration: dotted;
+    color: #666;
+    font-size: 0.8rem;
+    padding: 8px;
+
+}
