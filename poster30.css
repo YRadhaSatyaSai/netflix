@@ -1,0 +1,89 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{ 
+    background-color: #222;
+    color: #fff;
+}
+nav{
+    display: flex;
+    padding: 10px 10px;
+    justify-content: space-between;
+}
+nav .logo img{
+    object-fit: contain;
+    height: 50px;
+    width: 150px;
+}
+nav .action{
+    display: flex;
+    padding: 10px 20pxz;
+} 
+nav .action .signin{
+    background-color: red;
+    color: #fff;
+    padding: 0px 8px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: 600;
+    margin: 0px 5px;
+}
+nav .action .signin:hover{
+    background-color: #fff;
+    color: rgb(16, 16, 16);
+    transition: 0.5ms;
+}
+nav .action .joinnow{
+    background-color: transparent;
+    color: #fff;
+    padding: 0px 8px;
+    border: 2px solid #a3a3a3;
+}
+nav .action .joinnow:hover{
+   background-color:aliceblue;
+   color: rgb(10, 10, 10);
+   transition: 0.5ms; 
+}
+.banner{
+    background:linear-gradient(90deg, #181818 10%, hsla(0, 0%, 9%, .98) 20%, hsla(0, 0%, 9%, .97) 25%, hsla(0, 0%, 9%, .95) 35%, hsla(0, 0%, 9%, .94) 40%, hsla(0, 0%, 9%, .92) 45%, hsla(0, 0%, 9%, .9) 50%, hsla(0, 0%, 9%, .87) 55%, hsla(0, 0%, 9%, .82) 60%, hsla(0, 0%, 9%, .75) 65%, hsla(0, 0%, 9%, .63) 70%, hsla(0, 0%, 9%, .45) 75%, hsla(0, 0%, 9%, .27) 80%, hsla(0, 0%, 9%, .15) 85%, hsla(0, 0%, 9%, .08) 90%, hsla(0, 0%, 9%, .03) 95%, hsla(0, 0%, 9%, 0)),url("https://occ-0-4857-2186.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABeITMb7keXHG8JETIWR0z06U6Y7-xPZ_cseyrzjCxAz2uPZDRRMb1EcDGQHUfD6M0DKecDXM81jL5hag323x6JGo73MCVNiZ0XmH.jpg?r=539");
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 900px;
+}
+.bannercontent .bannertitle img{
+    object-fit: contain;
+    max-width: 100%;
+    width: 500px;
+    margin:50px 10px; 
+}
+.bannercontent{
+    padding: 15% 10%;
+}
+.bannercontent .bannertitle h1{
+    font-size:  30px;
+    padding: 50px 10px;
+}
+.bannercontent .bannertitle p{
+  color: #a3a3a3;  
+  font-size: 0px;
+  font-weight: 400;
+}
+.bannercontent .bannertitle span{
+    padding: 10px 5px;
+   
+}
+.bannercontent .bannertitle .maturity-number{
+    border: 2px solid#a3a3a3;
+    padding: 5px 8px;
+}
+.title-info-synopsis{
+    max-width: 100%;
+    padding: 30px 0px;
+}
